@@ -11,7 +11,7 @@
 | 3.  | [Wiki And Resources](#wiki-and-resources)   |
 | 4.  | [Functionality](#functionality)             |
 | 5.  | [Branches](#branches)                       |
-| 6.  | [Database Set Up](#database-set-up)         |
+| 6.  | [Database Schema](#database-schema)         |
 | 7.  | [Development Set Up](#development-set-up)   |
 | 8.  | [Tools](#tools)                             |
 | 9.  | [Deployment](#deployment)                   |
@@ -35,7 +35,7 @@ Deployed: [date]
 
 ## Functionality:
 
-- [List functionality]
+- [list functionality]
 
 ## Branches
 
@@ -43,11 +43,6 @@ Deployed: [date]
 | ----------- | ---------------- | ------- |
 | main        | [Production]()   | on push |
 | development | [Development]()  | on push |
-
-## Database Set Up
-
-1. Create a testing database in pgAdmin
-2. In root directory run `npx prisma db push` to create tables in pgAdmin
 
 ## Database Schema
 
@@ -62,21 +57,25 @@ desired database. Then, select 'Generate ERD' and 'Download Image'_
 
 1. Clone branch
 2. `npm install`
-3. Create .env file in root directory and add env variables:
+3. Create a testing database in pgAdmin
+4. Create .env file in root directory and add env variables:
 
 ```
 NEXT_PUBLIC_DEV=true
 NEXT_PUBLIC_PROD=false
-DATABASE_URL="postgresql://[username]:[password]@localhost:5432/teamtest?schema=public"
+DATABASE_URL="postgresql://[username]:[password]@localhost:5432/[database]?schema=public"
+
+additional variables may be needed
 ```
 
-Please check in 1pass or reach out to a fellow developer for env variable
-values.
+_Please check in 1pass or reach out to a fellow developer for env variable
+values_
 
-4. Fire up localhost:3000: `npm run dev`
-5. Create new branch off of main: `git checkout -b branch-name`
+5. In root directory run `npx prisma db push` to create tables in pgAdmin
+6. `npm run dev`
+7. Create new branch off of main: `git checkout -b branch-name`
 
-## Local Development Notes
+### Local Development Notes
 
 [notes, if needed]
 
@@ -86,7 +85,7 @@ values.
 - [NextAuth.js](https://next-auth.js.org/)
 - [Prisma: ORM](https://www.prisma.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [additional tools here]
+- [additional tools]
 
 ## Deployment
 
