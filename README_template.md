@@ -8,7 +8,7 @@
 | --- | ------------------------------------------- |
 | 1.  | [Description](#description)                 |
 | 2.  | [LCNW Staff Involved](#lcnw-staff-involved) |
-| 3.  | [Wiki And Resources](#wiki-and-resources)   |
+| 3.  | [Wiki and Resources](#wiki-and-resources)   |
 | 4.  | [Functionality](#functionality)             |
 | 5.  | [Branches](#branches)                       |
 | 6.  | [Database Schema](#database-schema)         |
@@ -29,11 +29,11 @@ Deployed: [date]
 - Developers: [names]
 - Stakeholder: [names]
 
-## Wiki And Resources
+## Wiki and Resources
 
 - [Project Name Wiki]()
 
-## Functionality:
+## Functionality
 
 - [list functionality]
 
