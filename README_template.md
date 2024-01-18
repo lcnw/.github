@@ -32,6 +32,7 @@ Deployed: [date]
 ## Wiki and Resources
 
 - [Project Name Wiki]()
+- [Database and Prisma Setup](https://github.com/lcnw/ADD-Team/wiki/Database-&-Prisma-Info)
 
 ## Functionality
 
