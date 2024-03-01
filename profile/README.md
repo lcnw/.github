@@ -20,7 +20,6 @@
     <img alt="PostgreSQL Badge" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" height=30 width=100 />
     <img alt="Tailwind CSS Badge" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height=30 width=100 />
     <img alt="Canva Badge" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" height=30 width=100 />
-    <img alt="Material UI Badge" src="https://img.shields.io/badge/materialui-%230081CB.svg?&style=for-the-badge&logo=material-ui&logoColor=white" height=30 width=100 />
     <img alt="HTML5 Badge" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" height=30 width=100 />
     <img alt="CSS3 Badge" src="https://img.shields.io/badge/css3%20-%235151e7.svg?&style=for-the-badge&logo=css3&logoColor=white" height=30 width=100 />
     <img alt="Bootstrap Badge" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" height=30 width=100 />
