@@ -16,12 +16,19 @@
 
 #### Schema Change Workflow
 - Make desired changes to the `schema.prisma` file
-- Run the command `npx prisma db push` to update the database locally
 - Test the changes
 - After testing, run `npx prisma migrate dev --name [name-here]` to generate a migration
+- Run `npx prisma generate`
 - Commit and push up changes
 
 _Collaborators: If the Prisma schema changed, pull down the changes locally. Then, run `npx prisma migrate dev` to update your local testing database - [Prisma Docs](https://www.prisma.io/docs/orm/prisma-migrate/workflows/team-development)_
+
+#### New Project
+**If the migrations folder does not yet exist, follow these steps:**
+- Run `npx prisma migrate dev`
+  - name: init
+- Run `npx prisma generate`
+- The project is now ready to follow the Schema Change Workflow, as needed
 
 ### Before
 
